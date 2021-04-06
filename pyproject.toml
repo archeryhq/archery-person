@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "archery-person"
+version = "0.1.0"
+description = "Authorization and session."
+authors = ["Enio Climaco Sales Junior <eniocsjunior@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "^1.4.3"
+cryptography = "^3.4.7"
+argon2-cffi = "^20.1.0"
+python-dotenv = "^0.16.0"
+psycopg2 = "^2.8.6"
+redis = "^3.5.3"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.0.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
